@@ -45,4 +45,4 @@ function datacheck (elem, tr){
      tr.style.textDecoration = 'line-through'
    }
 }
-}
+
