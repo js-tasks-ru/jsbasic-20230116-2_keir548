@@ -15,7 +15,7 @@ function highlight(table) {
  * @param {tr} элемент которому присваиваем необходимый дата атрибут
  */
 function datacheck (elem, tr){
-  if(!isNaN(elem)){
+  if(elem === null){
     tr.hidden = true
   } else if(elem.dataset.available == 'true') {
     tr.classList.add('available')
